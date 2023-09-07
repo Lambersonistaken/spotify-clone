@@ -12,4 +12,6 @@
 object-fit: contain;/*this is to make the logo fit in the sidebar keeps the ratio çözünürlüğü ayarlar */
 height: 70px;
 weight: 100px;
+padding: 10px;
+margin-right: auto;
 }
