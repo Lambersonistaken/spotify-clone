@@ -1,5 +1,4 @@
 .sidebar{
-    border: 1px solid black;
     height: 100vh;
     flex: 0.2;
     color: white;
@@ -7,4 +6,10 @@
     padding-left: 10px;
     padding-right: 10px;
     background-color: #040404;
+}
+
+.sidebar_logo {
+object-fit: contain;/*this is to make the logo fit in the sidebar keeps the ratio çözünürlüğü ayarlar */
+height: 70px;
+weight: 100px;
 }
