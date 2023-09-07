@@ -1,0 +1,11 @@
+.sidebarOption {
+    color: grey;
+    height: 30px;
+    cursor: pointer;
+    transition: 200ms color ease-in; /*this is for the hover effect*/
+}
+
+.sidebarOption:hover {
+    opacity: 0.9;
+    color: white;
+}
