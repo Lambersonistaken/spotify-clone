@@ -3,9 +3,16 @@
     height: 30px;
     cursor: pointer;
     transition: 200ms color ease-in; /*this is for the hover effect*/
+    display: flex;
+    align-items: center;
 }
 
 .sidebarOption:hover {
     opacity: 0.9;
     color: white;
+}
+
+.sidebarOption_icon {
+    padding-left: 10px;
+    padding-right: 10px;
 }
