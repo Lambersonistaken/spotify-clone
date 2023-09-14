@@ -14,7 +14,11 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer_left">
-        <img src="" alt="" />
+        <img
+          src="https://i.pinimg.com/1200x/6f/97/bc/6f97bcd3973ccc13686801ca124920b1.jpg"
+          alt=""
+          className="footer_albumlogo"
+        />
         <div className="footer_songInfo">
           <h4>Yeah!</h4>
           <p>Usher</p>
@@ -22,20 +26,20 @@ function Footer() {
       </div>
 
       <div className="footer_center">
-        <SidebarOption Icon={ShuffleIcon} title="Shuffle" />
-        <SidebarOption Icon={SkipPreviousIcon} title="Previous" />
-        <SidebarOption Icon={PlayCircleOutlineIcon} title="Play" />
-        <SidebarOption Icon={SkipNextIcon} title="Next" />
-        <SidebarOption Icon={ReplayIcon} title="Repeat" />
+        <ShuffleIcon className="footer_green" />
+        <SkipPreviousIcon className="footer_icon" />
+        <PlayCircleOutlineIcon fontSize="large" className="footer_icon" />
+        <SkipNextIcon className="footer_icon" />
+        <ReplayIcon className="footer_green" />
       </div>
 
       <div className="footer_right">
         <Grid container spacing={2}>
           <Grid item>
-            <PlaylistPlayIcon />
+            <PlaylistPlayIcon className="footer_icon" />
           </Grid>
           <Grid item>
-            <VolumeDownIcon />
+            <VolumeDownIcon className="footer_icon" />
           </Grid>
           <Grid item xs>
             <Slider />
