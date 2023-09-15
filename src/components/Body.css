@@ -31,3 +31,28 @@
     font-size: 14px;
     color: gray;
 }
+
+.body_icons {
+    display: flex;
+    align-items: center;
+}
+
+.body_icons > .MuiSvgIcon-root {
+    margin-right: 20px;
+}
+
+.body_shuffle {
+    font-size: 80px !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+    margin-left: 50px !important;
+}
+
+.body_shuffle:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.08);
+}
+
+.body_songs {
+    margin: 20px -30px;
+}
