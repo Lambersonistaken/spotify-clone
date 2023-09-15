@@ -9,4 +9,23 @@
     align-items: center;
     background-color: white;
     color: grey;
+    border-radius: 30px;
+    padding: 10px;
+    flex: 0.5;
+    min-width: 70px;
+}
+
+.header_left > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    width: 100%;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    min-width: 10vw;
 }
