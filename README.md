@@ -1,5 +1,5 @@
 
-#Spotify Clone
+# Spotify Clone
 
 Live : https://spotify-clone-psi-henna.vercel.app/
 
